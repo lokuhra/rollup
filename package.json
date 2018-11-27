@@ -1,6 +1,6 @@
 {
   "name": "rollup-styled-jsx",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "components library with rollup and styled-jsx",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   "license": "ISC",
   "homepage": "https://github.com/Tomekmularczyk/rollup-styled-jsx#readme",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
     "babel-core": "^6.26.3",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.7.0",

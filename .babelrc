@@ -5,6 +5,7 @@
   ],
   "plugins": [
     "styled-jsx/babel",
-    "external-helpers"
+    "external-helpers",
+    ["@babel/plugin-proposal-class-properties", { "loose": true}]
   ]
 }
