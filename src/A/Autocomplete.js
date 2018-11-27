@@ -2,16 +2,20 @@ import React, { Component, Fragment } from 'react';
 import { MdDeleteForever } from 'react-icons/md';
 
 class Autocomplete extends Component {
-    state = {
-      // The active selection's index
-      activeSuggestion: 0,
-      // The suggestions that match the user's input
-      filteredSuggestions: [],
-      // Whether or not the suggestion list is shown
-      showSuggestions: false,
-      // What the user has entered
-      userInput: ''
-    };
+    constructor(props) {
+        super(props);
+        this.state = {
+            // The active selection's index
+            activeSuggestion: 0,
+            // The suggestions that match the user's input
+            filteredSuggestions: [],
+            // Whether or not the suggestion list is shown
+            showSuggestions: false,
+            // What the user has entered
+            userInput: ''
+        };
+
+    }
 
 
   onChange = (e) => {
