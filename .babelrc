@@ -1,11 +1,10 @@
 {
   "presets": [
- 	  ["env", { "modules": false }],
-	  "react"
+    ["env", { "modules": false }],
+    "react"
   ],
   "plugins": [
     "styled-jsx/babel",
-    "external-helpers",
-    ["@babel/plugin-proposal-class-properties", { "loose": true}]
+    "external-helpers"
   ]
 }
